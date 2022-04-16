@@ -6,9 +6,9 @@ const header = () => {
     <div>
         <Typed className='typed-text'
             strings={[
-                'Search for products',
-                'Search for categories',
-                'Search for brands']}
+                'Derece1',
+                'Derece2',
+                'Derece3']}
                 typeSpeed={30}
                 backSpeed={40}
                 loop >

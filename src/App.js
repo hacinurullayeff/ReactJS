@@ -3,8 +3,9 @@ import Particles from "react-tsparticles";
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
 import particlesOptions from "./particles.json";
-import Navbar from './components/navbar';
-import Header from './components/header';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Contactme from './components/Contactme'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Particles options={particlesOptions}/>
             <Navbar />
             <Header />
+            <Contactme/>
         </div>
     );
 }
